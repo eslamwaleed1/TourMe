@@ -1,0 +1,189 @@
+/* Global Rules Start */
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Cairo', sans-serif;
+    background-color: black;
+    color: white;
+}
+a {
+    all: unset;
+    cursor: pointer;
+}
+ul {
+    list-style: none;
+}
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+@media (min-width: 380px){
+    .container{
+        width: 350px;
+    }
+}
+@media (min-width: 559px){
+    .container{
+        width: 550px;
+    }
+}
+@media (min-width: 759px){
+    .container{
+        width: 750px;
+    }
+}
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+.center-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Global Rules End*/
+body{
+    background-color: black;
+    /* width: 1000px; */
+}
+.header1{
+    color: azure;
+    padding: 8px;
+    margin-left: 50px;
+    
+}
+.header2{
+    color: azure;
+}
+.right{
+    width: 50%;
+    margin-left: 49%;
+   top: 0;
+   position: absolute;
+   /* float: right; */
+   /* height: 200px; */
+}
+.fullname{
+    color: azure;
+}
+.password{
+    color: azure;
+}
+.email{
+    color: azure;
+}
+.address{
+    color: azure;
+}
+.city{
+    color: azure;
+}
+.state{
+    color: azure;
+}
+.birthday{
+    color: azure;
+}
+.card{
+    color: azure;
+}
+.namecard{
+    color: azure;
+}
+.nocard{
+    color: azure;
+}
+.exp{
+    color: azure;
+}
+.exp2{
+    color: azure;
+}
+.zip{
+    color: azure;
+}
+.submit{
+    width: 70%;
+    margin-left: 15%;
+    /* margin-bottom: 30%; */
+    background-color: #42826B;
+    color: azure;
+    font-size: 27px;
+    font-family:'Arial Narrow Bold';
+    margin-top: 60px;
+}
+.name1{
+    background-color: #C6ECDE;
+    width: 400px;
+}
+.left{
+    margin-left: 80px;
+}
+.email1{
+    background-color: #C6ECDE;
+    width: 400px;
+}
+.password1{
+    background-color: #C6ECDE;
+    width: 400px;
+}
+.city1{
+    background-color: #C6ECDE;
+    width: 400px;
+}
+/* .inline{
+    display: inline;
+} */
+.birthday1{
+    margin-left: 230px;
+    top: 477px;
+    position: absolute;
+}
+.state2{
+    background-color: #C6ECDE;
+}
+/* .birthday1{
+    background-color: #42826B;
+} */
+.birthday2{
+    background-color: #C6ECDE;
+}
+.card1{
+    background-color: #C6ECDE;
+    width: 400px;
+}
+.n1{
+    background-color: #C6ECDE;
+    width: 400px;
+}
+.exp1{
+    background-color: #C6ECDE;
+    width: 400px;
+}
+.exp3{
+    background-color: #C6ECDE;
+    
+}
+.zip1{
+    background-color: #C6ECDE;
+    
+}
+.zip12{
+    margin-left: 220px;
+    top: 477px;
+    position: absolute;
+}

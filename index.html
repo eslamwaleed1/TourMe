@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TourMe</title>
+
+    <link rel="stylesheet" href="CSS\normalization.css">
+    <link rel="stylesheet" href="CSS\fonts.css">
+    <!-- Font Awesome Library -->
+    <link rel="stylesheet" href="CSS\all.min.css">
+    <!-- Main template CSS file -->
+    <link rel="stylesheet" href="CSS\query.css">
+</head>
+<body>
+    <!-- https://www.figma.com/file/EQmpCFtoAV3nTKy2qoUoxt/Tour-me?type=design&node-id=72%3A31&mode=design&t=Zhw0LX5h6F1hJIPU-1 -->
+    <div class="query">
+        <div>
+            <img src="images/query.png" alt="plane icon picture">
+            <div>
+                <h1>What is your favorite holiday activity?</h1>
+                <p>Choose up to 2 (You can change these later)</p>
+            </div>
+        </div>
+        <div>
+            <figure class="h">
+                <img src="images/query place 01.jpeg" alt="museum">
+                <figcaption>Visit a museum</figcaption>
+                <p>The Egyptian Museum</p>
+            </figure>
+            <figure class="h">
+                <img src="images/query place 02.jpeg" alt="restaurant">
+                <figcaption>Try a new restaurant</figcaption>
+                <p>Some Restaurant</p>
+            </figure>
+            <figure class="h">
+                <img src="images/query place 03.jpeg" alt="city">
+                <figcaption>Take a city walk</figcaption>
+                <p>A City Obviously</p>
+            </figure>
+            <figure class="h">
+                <img src="images/query place 04.jpeg" alt="hiking">
+                <figcaption>Go for a hike</figcaption>
+                <p>Some Place</p>
+            </figure>
+            <figure class="h">
+                <img src="images/query place 05.jpeg" alt="learn a new skill">
+                <figcaption>learn a new skill</figcaption>
+                <p>Somewhere</p>
+            </figure>
+            <div class="center-flex">
+                <a href="html/main.html" target="_self">Next</a>
+                <a href="html/main.html" target="_self">Skip</a>
+            </div>
+        </div>
+    </div>
+    <script>
+        const x = document.querySelectorAll(figure);
+        function change() {
+            const borderStyle = x.style.border;
+            x.style.border = "10px solid green";
+        }
+        x.addEventListener("click", change);
+    </script>
+</body>
+</html>

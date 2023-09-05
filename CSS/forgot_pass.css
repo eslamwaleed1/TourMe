@@ -1,0 +1,58 @@
+/* Global Rules Start */
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Cairo', sans-serif;
+    background-color: black;
+    color: white;
+}
+a {
+    all: unset;
+    cursor: pointer;
+}
+ul {
+    list-style: none;
+}
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+@media (min-width: 380px){
+    .container{
+        width: 350px;
+    }
+}
+@media (min-width: 559px){
+    .container{
+        width: 550px;
+    }
+}
+@media (min-width: 759px){
+    .container{
+        width: 750px;
+    }
+}
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+.center-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Global Rules End*/

@@ -1,0 +1,115 @@
+Global Rules Start
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Cairo', sans-serif;
+    background-color: black;
+    color: white;
+}
+a {
+    all: unset;
+    cursor: pointer;
+}
+ul {
+    list-style: none;
+}
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+@media (min-width: 380px){
+    .container{
+        width: 350px;
+    }
+}
+@media (min-width: 559px){
+    .container{
+        width: 550px;
+    }
+}
+@media (min-width: 759px){
+    .container{
+        width: 750px;
+    }
+}
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+.center-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Global Rules End*/
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 20px;
+    min-height: 80vh;
+}
+div {
+    display: flex;
+    justify-content: space-between;
+}
+main > div:nth-child(2) {
+    flex-wrap: wrap;
+    width: 650px;
+    justify-content: center;
+}
+div h1+div {
+    width: 100%;
+    justify-content: space-between;
+}
+main>div:first-child, main>div:last-child, main>div:nth-of-type(2)>div:nth-of-type(2){
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 200px;
+}
+img {
+    width: 250px;
+    height: 250px;
+    border-radius: 15px;
+}
+form {
+    width: 124%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    min-height: 175px;
+}
+input {
+    border: unset;
+    outline: unset;
+    background: unset;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    padding-bottom: 10px;
+    width: 100%;
+}
+input::placeholder {
+    color: rgba(45, 107, 155, 1);
+}
+input[type=checkbox] {
+    width: unset;
+}
+button {
+    border: unset;
+    outline: unset;
+    background-color: rgba(45, 107, 155, 1);
+    color: white;
+    padding: 10px 70px;
+    border-radius: 10px;
+    width: 100%;
+}
